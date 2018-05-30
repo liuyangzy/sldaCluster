@@ -23,7 +23,7 @@ When you use the this library, the precautions is as follows:
 
 
 There is an example as follows:
-
+···
 if __name__ == '__main__':
     sldaCluster = Util()
     Util.dataProcess('./data/sourceCorpus.txt')
@@ -32,3 +32,4 @@ if __name__ == '__main__':
         Util.w2v_slda('./data/vectors.bin', "./data/sourceCorpus.txt", 20, 0.5)
     elif clusterMethod == 'tfidf':
         Util.tfidf_slda("./data/sourceCorpus.txt", 20, 0.5)
+···
