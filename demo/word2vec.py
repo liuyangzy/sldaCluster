@@ -21,6 +21,7 @@ class DocSim(object):
         doc = doc.lower()
         words = [w for w in doc.split(" ") if w not in self.stopwords]
         word_vecs = []
+        for word in words:
             try:
                 vec = self.w2v_model[word]
                 word_vecs.append(vec)
