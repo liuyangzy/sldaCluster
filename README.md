@@ -44,9 +44,9 @@ python setup.py build
 python setup.py sdist
 ```
 * install (local) library
-  extract the compressed package in sdist
-  cd into the decompressed library
-  Execute the installation command：
+  * extract the compressed package in sdist
+  * cd into the decompressed library
+  * Execute the installation command：
   (in linux)
   ```
   sudo python setup.py install --record log
