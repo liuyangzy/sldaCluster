@@ -5,9 +5,9 @@
 
 from __future__ import print_function
 
-from word2vec import w2vcluster
-from tfidf import tfidfcluster
-from sldaModel import sldaModel
+from demo.word2vec import w2vcluster
+from demo.tfidf import tfidfcluster
+from demo.sldaModel import sldaModel
 import collections
 import os
 import shutil
