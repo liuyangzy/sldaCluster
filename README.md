@@ -33,3 +33,28 @@ if __name__ == '__main__':
     elif clusterMethod == 'tfidf':
         Util.tfidf_slda("./data/sourceCorpus.txt", 20, 0.5)
 ```
+
+The installation process of the library is as follows(in terminal)：
+* cd into directory which contains setup.py file, execute build command
+```
+python setup.py build
+```
+* After the build, execute the package command
+```
+python setup.py sdist
+```
+* install (local) library
+  extract the compressed package in sdist
+  cd into the decompressed library
+  Execute the installation command：
+  (in linux)
+  ```
+  sudo python setup.py install --record log
+  ```
+  (in windows)
+  ```
+  python setup.py install
+  ```
+  
+  
+  
